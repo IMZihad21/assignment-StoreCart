@@ -1,6 +1,18 @@
 body {
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
+  background-color: aliceblue;
+}
+.btn-addcart {
+  background-color: rgb(255, 158, 40);
+  color: white;
+}
+.btn-details {
+  background-color: rgb(252, 226, 255);
+}
+.header-text {
+  color: crimson;
+  font-weight: bold;
 }
 .search-field {
   border: none;
@@ -24,6 +36,8 @@ body {
   padding: 10px 50px;
   border-radius: 25px;
   margin-left: 25px;
+  background: crimson;
+  color: white;
 }
 #all-products {
   display: grid;
